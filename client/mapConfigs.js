@@ -3,8 +3,8 @@ mapConfigs.js
 */
 
 // Map configs
-const MAP_WIDTH = 2000;
-const MAP_HEIGHT = 2000;
+const MAP_WIDTH = 1000;
+const MAP_HEIGHT = 1000;
 const GRID_SIZE = 50;
 
 function drawGrid(camX, camY)
@@ -60,7 +60,7 @@ function createBushes(numBushes)
             x: Math.random() * (MAP_WIDTH - 80) + 40,
             y: Math.random() * (MAP_HEIGHT - 80) + 40,
             radius: 40,
-            color: Math.random() > 0.5 ? 'rgb(0, 100, 0, 0.7)' : 'rgb(39, 85, 3, 0.7)',
+            color: Math.random() > 0.5 ? 'rgb(0, 100, 0, 0.7)' : 'rgb(39, 85, 3, 0.9)',
 
             draw()
             {
@@ -73,7 +73,7 @@ function createBushes(numBushes)
     }
 }
 
-createBushes(100);
+createBushes(50);
 
 function drawBushes()
 {
