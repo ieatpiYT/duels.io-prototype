@@ -1,2 +1,2 @@
 # duels.io
-A browser-based multiplayer 1v1 arena game
+A legacy frontend prototype built when I was learning. It is not compatible with modern backend architectures.
